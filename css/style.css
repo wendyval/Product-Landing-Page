@@ -230,3 +230,13 @@ h3 {
   text-align: center;
   text-transform: uppercase;
 }
+
+.sub-button {
+  color: #fff;
+  background-color: #f5564e;
+  border: 1px solid #f5564e;
+  font: 14px 'Nunito', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  margin-top: 10px;
+}
