@@ -124,6 +124,13 @@ p {
 }
 
 /*Style for the how it works section*/
+#how-it-works {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #C70039;
+}
+
 #how-title {
   font: 21px 'Varela Round', sans-serif;
   color: #70001F;
