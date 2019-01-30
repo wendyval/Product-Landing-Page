@@ -138,6 +138,12 @@ p {
   margin-top: 38px;
 }
 
+#video {
+  margin-bottom: 50px;
+  max-width: 560px;
+  width: 100%;
+}
+
 /*Style for the package section*/
 .package-icon {
   max-width: 100px;
