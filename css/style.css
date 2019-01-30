@@ -84,3 +84,9 @@ li {
 #highlight {
   background: linear-gradient(0deg, #C97500 50%, transparent 50%);
 }
+
+/*Style for the package section*/
+.package-icon {
+  max-width: 100px;
+  margin: 0 20px;
+}
