@@ -98,7 +98,6 @@ li {
 
 .section {
   max-width: 23%;
-  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,6 +150,19 @@ h3 {
 }
 
 /*Style for the package section*/
+#packages {
+ display: flex;
+ flex-direction: column;
+ background-color: #fdb44b;;
+}
+
+#package-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px 0 50px;
+}
+
 .package-icon {
   max-width: 100px;
   margin: 0 20px;
