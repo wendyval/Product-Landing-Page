@@ -185,6 +185,18 @@ h3 {
   font: 16px 'Nunito', sans-serif;
 }
 
+.choose-button {
+  margin-top: 20px;
+  font: 14px 'Nunito', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #c97500;
+  border: 1px solid #c97500;
+  border-radius: 4px;
+  letter-spacing: 1.8px;
+  padding: 7px 12px;
+}
+
 /*Style the sing up section*/
 #signup {
   display: flex;
