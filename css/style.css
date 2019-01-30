@@ -60,7 +60,7 @@ li {
 
 /*Style for the image section*/
 #image {
-  background-image: url("img/books.jpg");
+  background-image: url("https://source.unsplash.com/BfriYg0iOCs");
   width: 100%;
   height: 100vh;
   background-position: center;
