@@ -73,7 +73,6 @@ li {
   text-align: center;
 }
 
-
 #centered-text {
   color: #E6F5FF;
   font: bolder 38px 'Josefin Sans', sans-serif;
@@ -83,6 +82,12 @@ li {
 
 #highlight {
   background: linear-gradient(0deg, #C97500 50%, transparent 50%);
+}
+
+/*Style for the feature section*/
+.feature-icon {
+  max-width: 100px;
+  margin: 0 20px;
 }
 
 /*Style for the package section*/
