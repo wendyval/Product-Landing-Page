@@ -167,3 +167,13 @@ h3 {
   max-width: 100px;
   margin: 0 20px;
 }
+
+.package-name {
+  color: #c97500;
+  font: 19px 'Josefin Sans', sans-serif;
+}
+
+.package-info {
+  color: #c97500;
+  font: 16px 'Nunito', sans-serif;
+}
