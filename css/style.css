@@ -273,4 +273,32 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #e6F5ff;
+  padding: 20px 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #669dc1;
+  transition: all 400ms;
+}
+
+.icon-links {
+  text-decoration: none;
+  color: #7e9fb5;
+}
+
+#icon-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #7e9fb5;
+  width: 50%;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#copyright {
+  font: 12px 'Varela Round', sans-serif;
+  color: #7e9fb5;
 }
