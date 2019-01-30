@@ -144,6 +144,12 @@ p {
   width: 100%;
 }
 
+h3 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /*Style for the package section*/
 .package-icon {
   max-width: 100px;
