@@ -184,3 +184,11 @@ h3 {
   color: #c97500;
   font: 16px 'Nunito', sans-serif;
 }
+
+/*Style the sing up section*/
+#signup-title {
+  font: 21px 'Varela Round', sans-serif;
+  color: #c41a11;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
