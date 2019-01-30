@@ -137,6 +137,15 @@ p {
   margin-top: 38px;
 }
 
+#how-line {
+  width: 70px;
+  height: 2px;
+  background-color: #fff;
+  margin: 3px auto 20px;
+  border: none;
+  background-color: #70001f;
+}
+
 #video {
   margin-bottom: 50px;
   max-width: 560px;
@@ -165,9 +174,18 @@ h3 {
 
 #packages-title {
   font: 21px 'Varela Round', sans-serif;
-  color: #C97500;
+  color: #c97500;
   letter-spacing: 2px;
   margin-top: 40px;
+}
+
+#packages-line {
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+  margin: 3px auto 20px;
+  border: none;
+  background-color: #c97500;
 }
 
 .package-icon {
@@ -202,7 +220,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #F5564E;
+  background-color: #f5564e;
 }
 
 #signup-title {
@@ -210,6 +228,15 @@ h3 {
   color: #c41a11;
   letter-spacing: 2px;
   margin-top: 40px;
+}
+
+#signup-line {
+  width: 90px;
+  height: 2px;
+  background-color: #fff;
+  margin: 3px auto 20px;
+  border: none;
+  background-color: #c41a11;
 }
 
 #form {
