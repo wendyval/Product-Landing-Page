@@ -85,6 +85,17 @@ li {
 }
 
 /*Style for the feature section*/
+#features {
+  background-color: #900C3F;
+  display: flex;
+}
+
+#feature-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 45px 0 50px;
+}
+
 .feature-icon {
   max-width: 100px;
   margin: 0 20px;
