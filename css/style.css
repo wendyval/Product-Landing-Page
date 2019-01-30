@@ -186,6 +186,13 @@ h3 {
 }
 
 /*Style the sing up section*/
+#signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5564E;
+}
+
 #signup-title {
   font: 21px 'Varela Round', sans-serif;
   color: #c41a11;
