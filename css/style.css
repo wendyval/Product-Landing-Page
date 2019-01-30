@@ -88,10 +88,12 @@ li {
 #features {
   background-color: #900C3F;
   display: flex;
+  flex-direction: column;
 }
 
 #feature-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   margin: 45px 0 50px;
 }
@@ -301,4 +303,66 @@ footer {
 #copyright {
   font: 12px 'Varela Round', sans-serif;
   color: #7e9fb5;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 800px) {
+  #feature-container {
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+    }
+  #package-container {
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .section {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 714px) {
+  #nav-bar {
+    flex-direction: column;
+    height: 130px;
+  }
+  .main-links {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #logo {
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0 20px;
+  }
+  #form {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #centered-text {
+    font-size: 32px;
+    margin-top: 150px;
+    padding: 0 40px;
+  }
+  #signup-title {
+    padding: 0 20px;
+  }
+  #form {
+    width: 70%;
+  }
+  #icon-info{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .section {
+    width: 80%;
+  }
 }
