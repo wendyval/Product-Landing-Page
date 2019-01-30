@@ -123,6 +123,14 @@ p {
   margin: 0;
 }
 
+/*Style for the how it works section*/
+#how-title {
+  font: 21px 'Varela Round', sans-serif;
+  color: #70001F;
+  letter-spacing: 2px;
+  margin-top: 38px;
+}
+
 /*Style for the package section*/
 .package-icon {
   max-width: 100px;
