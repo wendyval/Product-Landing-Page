@@ -67,4 +67,20 @@ li {
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+#centered-text {
+  color: #E6F5FF;
+  font: bolder 38px 'Josefin Sans', sans-serif;
+  padding: 0 90px;
+  line-height: 50px;
+}
+
+#highlight {
+  background: linear-gradient(0deg, #C97500 50%, transparent 50%);
 }
