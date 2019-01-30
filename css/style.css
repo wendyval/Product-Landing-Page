@@ -163,6 +163,13 @@ h3 {
   margin: 10px 0 50px;
 }
 
+#packages-title {
+  font: 21px 'Varela Round', sans-serif;
+  color: #C97500;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
 .package-icon {
   max-width: 100px;
   margin: 0 20px;
