@@ -96,9 +96,31 @@ li {
   margin: 45px 0 50px;
 }
 
+.section {
+  max-width: 23%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .feature-icon {
   max-width: 100px;
   margin: 0 20px;
+}
+
+.feature-name {
+  color: #4C001C;
+  font: 19px 'Josefin Sans', sans-serif;
+}
+
+.feature-info {
+  color: #4C001C;
+  font: 16px 'Nunito', sans-serif;
+}
+
+p {
+  margin: 0;
 }
 
 /*Style for the package section*/
